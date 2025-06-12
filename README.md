@@ -1,6 +1,6 @@
 # 🌐 Zipply Landing Page
 
-Landing page moderna e responsiva desenvolvida para a empresa de logística **Zipply**
+Landing page moderna e responsiva desenvolvida para a empresa de logística **Zipply**                                                      
 Este projeto de renovação do site da empresa, apresenta os serviços da empresa com efeitos visuais, animações suaves e responsividade.
 
 >⚠ Atenção: Por motivos de **direitos**, foram trocados o nome da empresa que trabalho e outras informações.
