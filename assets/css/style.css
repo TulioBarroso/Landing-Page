@@ -1,0 +1,334 @@
+/* Estilos gerais da página */
+
+/* * { /*ver que está vazando
+    outline: 1px solid red;
+} */
+
+body{
+    font-family: 'Open Sans', sans-serif; /* Define a fonte padrão */
+     /* padding-top: 140px; distanciar o header do resto abaixo  */
+    background-color: #f1f4f4;
+}
+.row{ 
+    margin: 0; /*Retira a margem da linha*/
+}
+
+.container{
+    padding: 70px 0; /* Espaçamento superior e inferior nos containers principais */
+}
+
+p, li{
+    color:#444; /* Cor do texto de parágrafos e listas */
+    font-size: 19px /* Tamanho da fonte */
+}
+
+/* -------------------- HeaderSuperior ------------------ */
+/* modo Escuro */
+.headerSuperior{
+    background-color: #011021;
+    p{
+        color: #b0afaf;
+        font-size: 12px;
+    }
+    a{
+        font-size: 12px;
+    }
+    .contatosHeaderSuperior{
+        color: #006CE4;
+    }
+}
+.themes-list, .language-list {
+    z-index: 1200;   /*ajustando a lista do tema/idioma para aparecer na frente do header*/   
+}
+/* ------------------ Header ------------------- */
+/* Barra de navegação */
+header, .navbar{
+    background-color: #112c4b; /* Cor de fundo azul escuro para header e navbar */
+}
+header{
+    box-shadow: 0 1px 4px #0c386a; 
+}
+#logo{
+    width: 170px; /* Largura da logo */
+}
+
+.navbar-brand{
+    padding: 0; /* Remove padding do link */
+    color: #FFF; /* Cor do texto da marca */
+}
+#navbar-links a{
+    color: #ffffffde; /* Cor dos links da navbar */
+}
+
+#navbar-links a:hover{
+    color: #006CE4; /* Cor dos links da navbar */
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0.1rem .8rem; /* Reduz o espaçamento vertical dos links da navbar */
+}
+
+/* Barra fina decorativa centralizada */
+.sub-bar {
+    height: 2px; /* Altura da barra */
+    background: linear-gradient(90deg, #006CE4 0%, #fb7900 100%); /* Cor da barra (branca) */
+    width: 52%; /* Largura da barra (ajustável) */
+}
+
+/* ---------------- CAROUSEL BOOTSTRAP (slider) -------------------- */
+/* cor do indicador inativo */
+.carousel-indicators [data-bs-target]{
+    background-color: #3176c5b8; 
+}
+/* cor do indicador ativo/atual banner */
+.carousel-indicators .active{
+    background-color: #fb7900;
+}
+.carousel-indicators {
+    bottom: -10px; /* posição vertical */
+}
+/* #mainSlider .carousel-inner, #mainSlider .carousel-item{height: 90vh;  /*90% view height } */
+
+
+/* --------------------- SOBRE NÓS (about us) ---------------------- */
+.main-title{ 
+    margin: 0 0 50px 0;
+    font-size: 35px;
+    position: relative;
+    text-align: start;
+    
+    color: #006CE4;
+}
+.main-title::after{  /* pseudo classe (barra embaixo do SOBRE NÓS */
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 120%;
+    width: 7%;
+    
+    border-top: 2px solid #006CE4;
+}
+/*Icones sobre nós*/
+.sobreNosIcons{
+    padding: 10px;
+    font-size: 20px; /*tamanho icones*/
+
+    /* border: 1px solid; */
+    border-radius: 10px;
+    color: #024EA3;
+    background-color: aliceblue;
+    box-shadow: 0 4px 12px #83b1e6;
+}.sobreNosIcons:hover{
+    box-shadow: 0 4px 12px #4b8fde;
+    transition: 0.4s;
+}
+
+/*------------Missão/visão/valores/ anvisa/ estrutura----------------*/
+.maisSobreNos{
+    P{
+        font-size: 14px;
+    }
+    .conteudoMaisSobre{
+        border: 1px solid rgb(211, 211, 211);
+        border-radius: 10px;
+        box-shadow: 0 2px 2px rgb(77, 75, 75) ;
+    }
+}
+
+.border-azulZip{
+    border-left: 2px solid #024EA3;
+}
+
+.fa-user, .fa-warehouse{
+    font-size: 50px;
+    color: #024EA3;
+}
+/*--------------------SERVIÇOS---------------------*/
+#iconsService{
+    font-size: 50px;
+    border: 0px solid;
+    border-radius: 10px;
+    color: #024EA3;
+    background-color: #024da35a;
+}
+
+.sobreNosIcons:hover, #iconsService:hover {
+    color: #024EA3;
+    box-shadow: 0 2px 4px #fb7900;
+}
+hr{
+    width: 50%;
+    color: blue;
+}
+/*-----------------ÁREA DE ATUAÇÃO-------------------*/
+/* card bootstrap */
+.card{
+    background-color: #f1f4f4;
+}
+.img-container img {
+    width: 100%;
+    display: block;
+}
+/* bordas */
+.container-aviao{
+    background-color:#0060ce ;
+    border-bottom: 4px solid #0060ce;
+}.container-caminhao{
+    background-color: #f58319d4;
+    border-bottom: 4px solid #f58319d4;
+}
+/* ZOOM nas imagens*/
+.img-container {
+    overflow: hidden; /* Ao ampliar a imagem, corta oque sairia do container */ 
+    border-radius: 10px;
+    
+    img{
+    transition: transform 0.3s ease;
+    filter:brightness(0.6);
+    }
+    }
+    .img-container:hover img {
+        transform: scale(1.1);
+        }
+
+/* titulo das imagens */
+.img-caption { 
+    position: absolute;
+    font-size: 30px;
+    top: 62%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 90%;
+    text-align: start;
+}
+/* ------------- FALE CONOSCO----------------- */   
+.fale-card {
+    border-radius: 16px;
+    border: 1.5px solid #eaf3fc;
+    box-shadow: 0 4px 24px #006ce41a;
+    background: #fff;
+    transition: box-shadow 0.3s, border 0.3s;
+    
+}
+.fale-card:hover {
+    box-shadow: 0 8px 32px #fb790033;
+    border: 1.5px solid #fb7900;
+}
+
+.fale-icone {
+    font-size: 2.0rem;
+    color: #fb7900;
+    background: #eaf3fc;
+    border-radius: 50%;
+    padding: 18px;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 8px #006ce41a;
+    transition: background 0.3s, color 0.3s;
+}
+.fale-card:hover .fale-icone {
+    background: #fb7900;
+    color: #fff;
+}
+
+.fale-card h4 {
+    color: #006CE4;
+    margin-bottom: 0.5rem;
+}
+.fale-card p {
+    color: #444;
+    font-size: 1rem;
+}
+
+/* ------------- FOOTER----------------- */
+.footer{
+    padding-left: 200px;
+    padding-top: 80px;
+    font-size: 15px;
+    background-color: #022145;
+    color: white;
+    font-weight: lighter;
+
+    /* telefone e email */
+    P, .dados{
+        color: white;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+}
+.copyright{
+    background-color: #011730;
+    font-size: 15px;
+    font: lighter;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    }
+
+
+.typed{
+    background-image: url("../img/");
+    background-size: 400px auto; /* 400px de largura, altura automática */
+    background-position: center;  /* centraliza a imagem */
+    
+}
+
+/* ----------------Modo escuro---------------- */
+[data-bs-theme="dark"] body{
+    background-color: #011021;
+}
+[data-bs-theme="dark"] p { 
+    color:#a9a9a9;
+}
+[data-bs-theme="dark"] header, .navbar{
+    background-color: #022145;  /* Cor escura para o header e nav */
+}
+
+[data-bs-theme="light"] .navbar{
+    background-color: #112c4b;  
+} 
+
+
+[data-bs-theme="dark"] .conteudoMaisSobre{
+    background-color: rgba(2, 33, 69, 0.3); 
+} 
+[data-bs-theme="dark"] .fale-card{
+    background-color: rgba(2, 33, 69, 0.3); 
+} 
+
+[data-bs-theme="dark"] .fale-icone{
+    background-color: #022145;
+}
+
+
+[data-bs-theme="dark"] .img-container {
+    img{
+    filter:brightness(0.9);
+    }}
+
+/*Setas do carousel*/
+[data-bs-theme="dark"] .carousel-control-prev-icon, .carousel-control-next-icon{
+    opacity: 0.1;
+}
+
+/*card da area de atuação*/
+[data-bs-theme="dark"] .card{    
+    background-color: #011021; 
+}
+
+.logo-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 460px){
+    .footer{
+        padding: 20px;
+    }
+}
