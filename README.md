@@ -1,7 +1,7 @@
-# 🌐 Zipply Web
+# 🌐 Zipply Landing Page
 
-Landing page moderna e responsiva desenvolvida para a empresa de logística **Zipply** (ou **Integralog**).  
-Este projeto apresenta os serviços da empresa com efeitos visuais, animações suaves e foco em conversão.
+Landing page moderna e responsiva desenvolvida para a empresa de logística **Zipply**.  
+Este projeto apresenta os serviços da empresa com efeitos visuais, animações suaves e responsividade.
 
 ---
 
@@ -13,7 +13,7 @@ Este projeto apresenta os serviços da empresa com efeitos visuais, animações 
 - Ícones profissionais com Font Awesome
 - Barra de progresso animada com ProgressBar.js
 - Tipografia otimizada com Google Fonts (Roboto e Open Sans)
-- Estrutura feita com Bootstrap 5
+- Uso de Bootstrap 5
 
 ---
 
@@ -23,6 +23,7 @@ Este projeto apresenta os serviços da empresa com efeitos visuais, animações 
 - **CSS3**
 - **JavaScript**
 - **Bootstrap 5**
+---
 - **jQuery**
 - **Font Awesome**
 - **Google Fonts**
@@ -96,13 +97,6 @@ cd zipply-web
 
 ---
 
-## 📍 Deploy
-
-(Opcional: insira o link do site hospedado aqui)  
-Ex: [https://zipply.vercel.app](https://zipply.vercel.app)
-
----
-
 ## 📝 Licença
 
 Este projeto está sob a licença MIT.  
@@ -110,4 +104,4 @@ Sinta-se livre para usar, modificar e compartilhar.
 
 ---
 
-> Projeto desenvolvido por [Seu Nome ou Nome da Equipe]
+> Projeto desenvolvido por [Túlio Barroso]
