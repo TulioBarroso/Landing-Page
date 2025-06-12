@@ -3,17 +3,15 @@
 Landing page moderna e responsiva desenvolvida para a empresa de logística **Zipply**
 Este projeto de renovação do site da empresa, apresenta os serviços da empresa com efeitos visuais, animações suaves e responsividade.
 
-⚠️> Atenção: Por motivos de direitos, foram trocados o nome da empresa que trabalho e outras informações.
+>⚠ Atenção: Por motivos de **direitos**, foram trocados o nome da empresa que trabalho e outras informações.
 ---
 
 ## ✨ Funcionalidades
 
 - Layout 100% responsivo (mobile, tablet e desktop)
 - Animações ao rolar a página com [AOS](https://michalsnik.github.io/aos/)
-- Parallax em imagens para efeito visual moderno
 - Ícones profissionais com Font Awesome
-- Barra de progresso animada com ProgressBar.js
-- Tipografia otimizada com Google Fonts (Roboto e Open Sans)
+- Google Fonts (Roboto e Open Sans)
 - Uso de Bootstrap 5
 
 ---
